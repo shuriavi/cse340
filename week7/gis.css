@@ -1,0 +1,54 @@
+html, body{
+    height:100%;
+    font-family: Helvetica;
+  }
+  
+  body { 
+     margin:0; 
+     padding:0; 
+  }
+  
+  #map { height: 100%; width:100%; position: relative }
+  
+  #header { background: #333; padding: 1vw; padding-left: 2vw; height: 3vw;}
+  
+  #header .title {
+    color: #EEE;
+    font-size: 1.6vw;
+    line-height: 3.4vw;
+  }
+  
+  #type {
+    background: #222;
+    border: solid 1px #888;
+    color: #EEE;
+    font-size: 1.2vw;
+    float:right
+  }
+  
+  #legend {
+    background:#FFFFFF;
+    position: absolute;
+    width: 18vw;
+    height: auto;
+    bottom: 1vw;
+    right: 1vw;
+    padding:12px;
+  }
+  
+  #legend .icon {
+    width: 1.5vw;
+    height:1.5vw;
+    margin-right: 2vw;
+    float:left;
+  }
+  
+  #legend .sub {
+    font-size: .9vw;
+    color: #444;
+  }
+  
+  #legend .type {
+    font-size: 1vw;
+    color: #666;
+  }
